@@ -34,6 +34,9 @@ export default withAuth(
     session,
     graphql: {
       playground: true,
+      apolloConfig: {
+        introspection: true,
+      },
     },
   })
 );
