@@ -32,5 +32,8 @@ export default withAuth(
       Product,
     },
     session,
+    graphql: {
+      playground: true,
+    },
   })
 );
